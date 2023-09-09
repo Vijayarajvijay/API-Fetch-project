@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #0085FE;
+    font-size: 50px;
+}
+
+.card {
+    width: 380px !important;
+    height: 210px !important;
+    margin: 50px 0px 0px 50px;
+    border: 2px solid teal !important;
+    background-color: #9AEFF4 !important;
+    box-shadow: 5px 5px 10px #808080a5;
+    font-size: 20px;
+}
+
