@@ -27,6 +27,8 @@
 @media (max-width: 576px) {
     .row-cols-1 {
         column-count: 2 !important; 
+        padding-left: 50px;
+
         
     }
 }
@@ -35,7 +37,7 @@
 @media (min-width: 576px) and (max-width: 768px) {
     .row-cols-md-2 {
         column-count: 2 !important;
-        padding-left: 150px;
+      
 
     }
     
