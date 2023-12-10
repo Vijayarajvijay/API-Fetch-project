@@ -1,9 +1,7 @@
-*{
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -18,5 +16,48 @@
     border: 2px solid teal !important;
     background-color: #9AEFF4 !important;
     box-shadow: 5px 5px 10px #808080a5;
-   
+}
+
+/* Basic styling for responsiveness */
+.container-fluid {
+    padding: 20px;
+}
+
+/* For extra small devices (phones) */
+@media (max-width: 576px) {
+    .row-cols-1 {
+        column-count: 2 !important; 
+        
+    }
+}
+
+/* For small devices (tablets) */
+@media (min-width: 576px) and (max-width: 768px) {
+    .row-cols-md-2 {
+        column-count: 2 !important;
+        padding-left: 150px;
+
+    }
+    
+}
+
+/* For medium devices (small desktops) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .row-cols-lg-3 {
+        column-count: 3;
+    }
+}
+
+/* For large devices (large desktops) */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .row-cols-xl-4 {
+        column-count: 4;
+    }
+}
+
+/* For extra-large devices (extra-large desktops) */
+@media (min-width: 1200px) {
+    .row-cols-xl-4 {
+        column-count: 4;
+    }
 }
